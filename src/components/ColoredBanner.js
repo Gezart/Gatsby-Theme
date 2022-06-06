@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ColoredBanner = ({title, content, ColoredBannerButton}) => {
+const ColoredBanner = ({title, content}) => {
     return (
         <div>
             <h2>{title}</h2>
