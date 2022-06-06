@@ -21,6 +21,14 @@ exports.createPages = async ({ graphql, actions }) => {
                         url
                     }
                   }
+                  ... on WpPage_Sections_Sections_BannerWithColor {
+                    title
+                    content
+                    coloredBannerButton {
+                      title
+                      url
+                    }
+                  }
                 }
               }
             }
