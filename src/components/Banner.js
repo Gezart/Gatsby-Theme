@@ -11,4 +11,6 @@ const Banner = ({title, content, bannerButton}) => {
   )
 }
 
+//QYKY O PLAIN TEXT BRANCH
+
 export default Banner
